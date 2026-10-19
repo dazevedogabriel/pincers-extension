@@ -1,0 +1,85 @@
+{
+  "extName": { "message": "Pincers", "description": "Extension name." },
+  "extDescription": {
+    "message": "Captures browser downloads and hands them to Pincers.",
+    "description": "Description in the extensions list."
+  },
+
+  "menuDownloadLink": { "message": "Download with Pincers", "description": "Right-click menu on a link, image or video." },
+  "menuDownloadAll": { "message": "Download every file link with Pincers", "description": "Right-click menu on the page or a selection." },
+
+  "popupSubtitle": { "message": "Captures downloads and hands them to Pincers" },
+  "popupConnected": {
+    "message": "Connected to Pincers $VERSION$",
+    "placeholders": { "version": { "content": "$1", "example": "0.1.0" } }
+  },
+  "popupChecking": { "message": "Looking for Pincers…" },
+  "popupNotFound": { "message": "Pincers not found" },
+  "popupNotFoundHint": {
+    "message": "Open Pincers once (from wherever it is) and it connects itself to the browser. No install or PATH needed.",
+    "description": "Shown when the native host is not registered or the exe moved."
+  },
+  "popupCapture": { "message": "Capture downloads automatically" },
+  "popupAltHint": {
+    "message": "Hold <kbd>Alt</kbd> while clicking a link to let the browser handle it",
+    "description": "May contain <kbd>…</kbd> to highlight the key."
+  },
+  "popupSend": { "message": "Start them in Pincers" },
+  "popupSendHint": { "message": "Off: only copy the link, for you to paste into Pincers" },
+  "popupHistory": { "message": "Recently captured links" },
+  "popupHistoryEmpty": { "message": "None yet. Download a file or right-click a link." },
+  "popupTypes": { "message": "File types to capture" },
+  "popupExcluded": { "message": "Never capture from these sites" },
+  "popupExcludedHint": { "message": "(one per line)" },
+  "popupExcludedPlaceholder": { "message": "example.com" },
+  "popupResetTypes": { "message": "Restore types" },
+  "popupDiagnostics": { "message": "Diagnostics" },
+
+  "capturedPageTitle": { "message": "Pincers — captured link", "description": "Title of the window showing the captured link." },
+  "capturedDownload": { "message": "Download captured" },
+  "capturedLink": { "message": "Link copied" },
+  "capturedMany": {
+    "message": "$COUNT$ links captured",
+    "placeholders": { "count": { "content": "$1", "example": "12" } }
+  },
+  "capturedHint": { "message": "Paste it into Pincers to download" },
+  "copiedOne": { "message": "Link copied — paste it into Pincers (Ctrl+V)" },
+  "copiedMany": {
+    "message": "$COUNT$ links copied — paste them into Pincers (Ctrl+V)",
+    "placeholders": { "count": { "content": "$1", "example": "12" } }
+  },
+  "copyFailed": { "message": "Couldn't copy automatically: click “Copy”." },
+  "sendFailed": {
+    "message": "Pincers didn't answer: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "sendFailedHint": { "message": "If you moved Pincers, open it once and click “Send to Pincers”." },
+  "sendToPincers": { "message": "Send to Pincers" },
+  "sending": { "message": "Sending…" },
+  "downloadInBrowser": { "message": "Download in browser" },
+  "close": { "message": "Close" },
+  "copy": { "message": "Copy" },
+  "copyAll": { "message": "Copy all" },
+  "copied": { "message": "Copied ✓" },
+
+  "logLeftToBrowser": {
+    "message": "left to the browser: $URL$",
+    "placeholders": { "url": { "content": "$1" } }
+  },
+  "logNotCaptured": {
+    "message": "not captured (type $TYPE$): $NAME$",
+    "placeholders": { "type": { "content": "$1", "example": "\"html\"" }, "name": { "content": "$2" } }
+  },
+  "logCaptured": {
+    "message": "captured: $NAME$",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "logSent": {
+    "message": "sent to Pincers: $NAME$",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "logSendFailed": {
+    "message": "Pincers didn't answer: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  }
+}

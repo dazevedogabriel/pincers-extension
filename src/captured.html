@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title data-i18n="capturedPageTitle">Pincers</title>
+<link rel="stylesheet" href="popup.css">
+<link rel="stylesheet" href="captured.css">
+</head>
+<body class="captured">
+  <header>
+    <img src="icons/icon48.png" alt="" width="28" height="24">
+    <div>
+      <div class="title" id="title" data-i18n="capturedLink"></div>
+      <div class="sub" id="sub" data-i18n="capturedHint"></div>
+    </div>
+  </header>
+
+  <section class="status bad tall" id="send-failed" hidden>
+    <span class="dot"></span>
+    <span><span id="send-error"></span><span class="hint" data-i18n="sendFailedHint"></span></span>
+  </section>
+  <section class="status ok" id="copied" hidden><span class="dot"></span><span id="copied-text" data-i18n="copiedOne"></span></section>
+  <section class="status bad" id="copy-failed" hidden><span class="dot"></span><span data-i18n="copyFailed"></span></section>
+
+  <ul class="links" id="links"></ul>
+
+  <footer>
+    <button id="send" class="primary" hidden data-i18n="sendToPincers"></button>
+    <button id="copy-all" data-i18n="copy"></button>
+    <button id="browser" hidden data-i18n="downloadInBrowser"></button>
+    <button id="close" data-i18n="close"></button>
+  </footer>
+  <script src="i18n.js"></script>
+  <script src="captured.js"></script>
+</body>
+</html>

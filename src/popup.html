@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title data-i18n="extName">Pincers</title>
+<link rel="stylesheet" href="popup.css">
+<link rel="stylesheet" href="captured.css">
+</head>
+<body>
+  <header>
+    <img src="icons/icon48.png" alt="" width="28" height="24">
+    <div>
+      <div class="title" data-i18n="extName"></div>
+      <div class="sub" data-i18n="popupSubtitle"></div>
+    </div>
+  </header>
+
+  <section class="status tall" id="host">
+    <span class="dot"></span>
+    <span><span id="host-text" data-i18n="popupChecking"></span><span class="hint" id="host-hint" hidden data-i18n="popupNotFoundHint"></span></span>
+  </section>
+
+  <label class="row toggle">
+    <span>
+      <span class="label" data-i18n="popupCapture"></span>
+      <span class="hint" data-i18n-html="popupAltHint"></span>
+    </span>
+    <input type="checkbox" id="enabled">
+  </label>
+
+  <label class="row toggle">
+    <span>
+      <span class="label" data-i18n="popupSend"></span>
+      <span class="hint" data-i18n="popupSendHint"></span>
+    </span>
+    <input type="checkbox" id="send">
+  </label>
+
+  <div class="field">
+    <span class="label" data-i18n="popupHistory"></span>
+    <ul class="links" id="history"></ul>
+    <span class="hint" id="history-empty" data-i18n="popupHistoryEmpty"></span>
+  </div>
+
+  <label class="field">
+    <span class="label" data-i18n="popupTypes"></span>
+    <textarea id="extensions" rows="3" spellcheck="false"></textarea>
+  </label>
+
+  <label class="field">
+    <span class="label"><span data-i18n="popupExcluded"></span> <span class="hint" data-i18n="popupExcludedHint"></span></span>
+    <textarea id="excluded" rows="2" spellcheck="false" data-i18n-placeholder="popupExcludedPlaceholder"></textarea>
+  </label>
+
+  <footer>
+    <button id="reset" data-i18n="popupResetTypes"></button>
+  </footer>
+
+  <details>
+    <summary class="hint" data-i18n="popupDiagnostics"></summary>
+    <pre id="log"></pre>
+  </details>
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

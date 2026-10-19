@@ -1,0 +1,85 @@
+{
+  "extName": { "message": "Pincers", "description": "Nome da extensão." },
+  "extDescription": {
+    "message": "Captura os downloads do navegador e entrega para o Pincers.",
+    "description": "Descrição na lista de extensões."
+  },
+
+  "menuDownloadLink": { "message": "Baixar com o Pincers", "description": "Menu do botão direito sobre um link, imagem ou vídeo." },
+  "menuDownloadAll": { "message": "Baixar todos os links de arquivos com o Pincers", "description": "Menu do botão direito na página ou numa seleção." },
+
+  "popupSubtitle": { "message": "Captura os downloads e entrega para o Pincers" },
+  "popupConnected": {
+    "message": "Conectado ao Pincers $VERSION$",
+    "placeholders": { "version": { "content": "$1", "example": "0.1.0" } }
+  },
+  "popupChecking": { "message": "Procurando o Pincers…" },
+  "popupNotFound": { "message": "Pincers não encontrado" },
+  "popupNotFoundHint": {
+    "message": "Abra o Pincers uma vez (de onde ele estiver) e ele se conecta sozinho ao navegador. Sem instalar e sem mexer no PATH.",
+    "description": "Mostrado quando o host nativo não está registrado ou o exe mudou de lugar."
+  },
+  "popupCapture": { "message": "Capturar downloads automaticamente" },
+  "popupAltHint": {
+    "message": "Segure <kbd>Alt</kbd> ao clicar num link para deixar com o navegador",
+    "description": "Pode conter <kbd>…</kbd> para destacar a tecla."
+  },
+  "popupSend": { "message": "Iniciar no Pincers" },
+  "popupSendHint": { "message": "Desligado: só copia o link, para você colar no Pincers" },
+  "popupHistory": { "message": "Últimos links capturados" },
+  "popupHistoryEmpty": { "message": "Nenhum ainda. Baixe um arquivo ou clique com o botão direito num link." },
+  "popupTypes": { "message": "Tipos de arquivo capturados" },
+  "popupExcluded": { "message": "Nunca capturar destes sites" },
+  "popupExcludedHint": { "message": "(um por linha)" },
+  "popupExcludedPlaceholder": { "message": "exemplo.com" },
+  "popupResetTypes": { "message": "Restaurar tipos" },
+  "popupDiagnostics": { "message": "Diagnóstico" },
+
+  "capturedPageTitle": { "message": "Pincers — link capturado", "description": "Título da janela que mostra o link capturado." },
+  "capturedDownload": { "message": "Download capturado" },
+  "capturedLink": { "message": "Link copiado" },
+  "capturedMany": {
+    "message": "$COUNT$ links capturados",
+    "placeholders": { "count": { "content": "$1", "example": "12" } }
+  },
+  "capturedHint": { "message": "Cole no Pincers para baixar" },
+  "copiedOne": { "message": "Link copiado — cole no Pincers (Ctrl+V)" },
+  "copiedMany": {
+    "message": "$COUNT$ links copiados — cole no Pincers (Ctrl+V)",
+    "placeholders": { "count": { "content": "$1", "example": "12" } }
+  },
+  "copyFailed": { "message": "Não deu para copiar sozinho: clique em “Copiar”." },
+  "sendFailed": {
+    "message": "O Pincers não respondeu: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  },
+  "sendFailedHint": { "message": "Se você mudou o Pincers de lugar, abra ele uma vez e clique em “Enviar ao Pincers”." },
+  "sendToPincers": { "message": "Enviar ao Pincers" },
+  "sending": { "message": "Enviando…" },
+  "downloadInBrowser": { "message": "Baixar no navegador" },
+  "close": { "message": "Fechar" },
+  "copy": { "message": "Copiar" },
+  "copyAll": { "message": "Copiar todos" },
+  "copied": { "message": "Copiado ✓" },
+
+  "logLeftToBrowser": {
+    "message": "deixado com o navegador: $URL$",
+    "placeholders": { "url": { "content": "$1" } }
+  },
+  "logNotCaptured": {
+    "message": "não capturado (tipo $TYPE$): $NAME$",
+    "placeholders": { "type": { "content": "$1", "example": "\"html\"" }, "name": { "content": "$2" } }
+  },
+  "logCaptured": {
+    "message": "capturado: $NAME$",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "logSent": {
+    "message": "enviado ao Pincers: $NAME$",
+    "placeholders": { "name": { "content": "$1" } }
+  },
+  "logSendFailed": {
+    "message": "o Pincers não respondeu: $ERROR$",
+    "placeholders": { "error": { "content": "$1" } }
+  }
+}
